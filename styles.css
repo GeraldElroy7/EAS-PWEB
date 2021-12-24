@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #3d42cd;
+}
+
+@font-face {
+  font-family: Rambla;
+  src: url(./sources/Rambla-Regular.ttf);
+}
+
+.title {
+  font-family: Rambla;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 180px;
+  left: 60px;
+}
+
+.login-button {
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  text-align: center;
+  color: #3d42cd;
+  background-color: white;
+  position: fixed;
+  top: 460px;
+  left: 60px;
+  font-size: 25px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.login-button2 {
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  text-align: center;
+  color: #3d42cd;
+  background-color: white;
+  padding-left: 112px;
+  padding-right: 112px;
+  position: fixed;
+  top: 500px;
+  left: 160px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.parent {
+  position: fixed;
+  top: 305px;
+  left: 900px;
+}
+
+.divider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+form {
+  position: relative;
+  top: 280px;
+  left: 150px;
+}
+
+.input-label {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Rambla;
+  color: white;
+  font-weight: 500;
+}
+
+.input-box {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  border: none;
+  padding: 18px;
+  font-size: 20px;
+}
